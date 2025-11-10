@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #058b32;
+    --secondary-color: #034d1a;
+    --neutro-color: #F1F6F4;
+    --sofisticated-color: #D9E3E1;
+    --focus-color: #3AB0A2;
+}
+
+body {
+    margin: 15%;
+}
+
+.firstContainer {
+    background-image: linear-gradient(to right, #00290a, #004e04);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 0px;
+}
+
+.logo img {
+    width: 400px;
+    height: auto;
+}
+
+.desc p {
+    font-family: Sans-serif;
+    font-size: 25px;
+    color:#F1F6F4;
+    text-align: center;
+    
+}
+
