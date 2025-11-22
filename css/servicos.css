@@ -1,0 +1,25 @@
+/* GRID DE SERVIÇOS */
+h2 {
+  padding-top: 50px;
+}
+.servicos-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+}
+
+.servicos-desc{
+  text-align:center;
+}
+
+.card img {
+  width: 250px;
+  height: 200px;
+}
+
+/* RESPONSIVO */
+@media (max-width:1000px){
+  .servicos-grid{
+    grid-template-columns:1fr;
+  }
+}

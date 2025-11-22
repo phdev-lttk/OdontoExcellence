@@ -1,0 +1,69 @@
+/* CONTATOS — layout correto */
+
+.contato-wrap {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+h2 {
+  padding-top: 50px;
+}
+
+/* FORMULÁRIO */
+.form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.form button {
+  width: fit-content;
+  padding: 12px 26px;
+  background: var(--green-light);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* BLOCO DE INFORMAÇÕES */
+.info-box {
+  width: 40%;
+  background: #fff;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.08);
+}
+
+.info-box h3 {
+  color: var(--green);
+  margin-bottom: 12px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .contato-wrap {
+    flex-direction: column;
+  }
+
+  .form, .info-box {
+    width: 100%;
+  }
+
+  .info-box {
+    margin-top: 20px;
+  }
+}
