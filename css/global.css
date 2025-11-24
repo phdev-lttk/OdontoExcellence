@@ -107,6 +107,19 @@ footer{
   margin-top:40px;
 }
 
+.site-footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.site-footer .footer-content p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+
 /* RESPONSIVO */
 @media (max-width:1000px){
 
