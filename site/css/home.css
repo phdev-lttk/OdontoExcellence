@@ -45,8 +45,16 @@
     font-size: 15px;
 }
 
+.servicos-grid {
 
-@media (max-width:1000px){
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+@media (max-width:800px){
   .hero{
     flex-direction:column;
     text-align:center;
@@ -55,5 +63,10 @@
   .hero-right img{
     width:100%;
     max-width:380px;
+  }
+
+  .servicos-grid {
+    display: grid;
+    justify-content: center;
   }
 }
