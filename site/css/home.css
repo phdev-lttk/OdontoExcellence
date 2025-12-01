@@ -43,14 +43,13 @@
     padding-top: 25px;
     text-align: center;
     font-size: 15px;
+    padding-left: 46vh;
 }
 
 .servicos-grid {
-
+  
   display: flex;
   justify-content: center;
-
-
 
 }
 
@@ -68,5 +67,6 @@
   .servicos-grid {
     display: grid;
     justify-content: center;
+    max-height: 2px;
   }
 }
